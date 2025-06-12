@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="CrystalDrive">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crystal Drive - クラウドソリューション</title>
+  <link href="dist/output.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <!-- 上部のお知らせバー：ナブバーの外 -->
+    <div class="fixed top-0 left-0 w-full bg-primary text-white text-center hover:text-neutral py-1 z-50">
+      <a href="#section5" class="text-sm">アーリーアクセス受付中につきぜひお早めにお申し込みください</a>
+    </div>
+    <div class="navbar fixed top-[30px] left-0 w-full bg-base-100 shadow-sm z-40">
+      <!-- 左側（ロゴ） -->
+      <div class="navbar-start">
+        <a href="index.html" class="flex items-center">
+          <img src="./src/assets/images/logo_CrystalDrive.png" alt="Crystal Drive Logo" class="h-12">
+        </a>
+      </div>
+      <!-- 中央（メニュー） -->
+      <div class="navbar-center space-x-6">
+        <a href="#section4" class="text-gray-700 hover:text-indigo-600">Before / After</a>
+        <a href="#section5" class="text-gray-700 hover:text-indigo-600">資料請求・お問い合わせ</a>
+      </div>
+      <!-- 右側（空白。必要ならボタンなど入れてもOK） -->
+      <div class="navbar-end"></div>
+    </div>
+  </header>
+<main class="py-12 md:py-20">
+  <section id="section-case-studies" class="max-w-7xl mx-auto px-4">
+    <h2 class="text-xl text-primary font-bold text-center mb-10 mt-8">導入事例・お客様の声</h2>
+
+    <div class="tabs justify-center mb-6">
+      <a class="tab tab-bordered tab-active" onclick="showTab('gov')">自治体</a>
+      <a class="tab tab-bordered" onclick="showTab('medical')">医療機関</a>
+      <a class="tab tab-bordered" onclick="showTab('smb')">中小企業</a>
+    </div>
+
+    <!-- カード表示 -->
+    <div id="case-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- カード例：自治体 -->
+      <div class="card bg-white shadow-md border border-gray-200">
+        <div class="card-body">
+          <h3 class="card-title text-lg font-semibold">横浜市役所</h3>
+          <p class="text-gray-600 text-sm">議会資料の検索時間が85%短縮されました。</p>
+          <div class="mt-2">
+            <span class="badge badge-warning mr-1">課題: 検索性</span>
+            <span class="badge badge-success">効果: 時間短縮</span>
+          </div>
+          <div class="rating mt-3">
+            <input type="radio" name="rating-1" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-1" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-1" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-1" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-1" class="mask mask-star-2 bg-yellow-400" checked />
+          </div>
+          <div class="mt-4 text-sm text-gray-500">担当者：総務課 鈴木様</div>
+        </div>
+      </div>
+
+      <!-- 他のカードも同様に追加（例：医療機関、中小企業など） -->
+      <div class="card bg-white shadow-md border border-gray-200">
+        <div class="card-body">
+          <h3 class="card-title text-lg font-semibold">さくら総合病院</h3>
+          <p class="text-gray-600 text-sm">診療記録の検索にかかる時間が70%削減。</p>
+          <div class="mt-2">
+            <span class="badge badge-warning mr-1">課題: 情報の分散</span>
+            <span class="badge badge-success">効果: 業務効率化</span>
+          </div>
+          <div class="rating mt-3">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+          </div>
+          <div class="mt-4 text-sm text-gray-500">担当者：情報管理部 田中様</div>
+        </div>
+      </div>
+
+      <div class="card bg-white shadow-md border border-gray-200">
+        <div class="card-body">
+          <h3 class="card-title text-lg font-semibold">株式会社グリーンテック</h3>
+          <p class="text-gray-600 text-sm">従業員5名でもスムーズに運用開始。</p>
+          <div class="mt-2">
+            <span class="badge badge-warning mr-1">課題: IT人材不足</span>
+            <span class="badge badge-success">効果: 自走運用</span>
+          </div>
+          <div class="rating mt-3">
+            <input type="radio" name="rating-3" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-3" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-3" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-3" class="mask mask-star-2 bg-yellow-400" />
+            <input type="radio" name="rating-3" class="mask mask-star-2 bg-yellow-400" />
+          </div>
+          <div class="mt-4 text-sm text-gray-500">担当者：代表取締役 山本様</div>
+        </div>
+      </div>
+
+      <div class="card bg-white shadow-md border border-gray-200">
+        <div class="card-body">
+          <h3 class="card-title text-lg font-semibold">東京都庁</h3>
+          <p class="text-gray-600 text-sm">条例検索が3秒以内で可能に。</p>
+          <div class="mt-2">
+            <span class="badge badge-warning mr-1">課題: 法令対応</span>
+            <span class="badge badge-success">効果: 検索時間短縮</span>
+          </div>
+          <div class="rating mt-3">
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-yellow-400" checked />
+            <input type="radio" name="rating-4" class="mask mask-star-2 bg-yellow-400" />
+          </div>
+          <div class="mt-4 text-sm text-gray-500">担当者：ICT推進課 高橋様</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script>
+  function showTab(type) {
+    const cards = document.querySelectorAll('#case-cards > div');
+    cards.forEach(card => card.style.display = 'block'); // タブ別表示したい場合は条件分岐追加可
+  }
+</script>
+
+
+  <!-- Footer -->
+  <footer class="py-8">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+        <a href="#" class="link link-hover text-gray-700">利用規約</a>
+        <a href="#" class="link link-hover text-gray-700">プライバシーポリシー</a>
+        <a href="#" class="link link-hover text-gray-700">運営会社</a>
+      </div>
+      <div class="text-center mt-6">
+        <p class="text-sm text-gray-500">© 2025 Crystal Drive All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
