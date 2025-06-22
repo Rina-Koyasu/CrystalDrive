@@ -7,6 +7,12 @@ module.exports = {
     "./src/**/*.{html,js}",
   ],
 
+  safelist: [
+    'badge-primary',
+    
+  ],
+
+
   plugins: [require("daisyui")],
   daisyui: {
     themes: ["CrystalDrive"], // ここを忘れずに！
