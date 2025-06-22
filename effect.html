@@ -1,0 +1,489 @@
+◇オンラインデモページ
+
+「話せるAI」の体験価値を直接提供
+技術的な実装が必要だが訴求効果大
+
+
+◇業界別特化ページ（自治体向け）
+
+ターゲットが明確で具体的な訴求が可能
+セキュリティニーズが高く差別化しやすい
+
+<!DOCTYPE html>
+<html lang="ja" data-theme="CrystalDrive">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crystal Drive - クラウドソリューション</title>
+  <link href="dist/output.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <!-- 上部のお知らせバー：ナブバーの外 -->
+    <div class="fixed top-0 left-0 w-full bg-primary text-white text-center hover:text-neutral py-1 z-50">
+      <a href="#section5" class="text-sm">アーリーアクセス受付中につきぜひお早めにお申し込みください</a>
+    </div>
+    <div class="navbar fixed top-[30px] left-0 w-full bg-base-100 shadow-sm z-40">
+      <!-- 左側（ロゴ） -->
+      <div class="navbar-start">
+        <a href="index.html" class="flex items-center">
+          <img src="./src/assets/images/logo_CrystalDrive.png" alt="Crystal Drive Logo" class="h-12">
+        </a>
+      </div>
+      <!-- 中央（メニュー） -->
+     <div class="navbar-center space-x-6">
+        <a href="index.html#section4" class="text-gray-700 hover:text-indigo-600">Before / After</a>
+        <a href="effect.html" class="text-gray-700 hover:text-indigo-600">導入と効果</a>
+        <a href="customer.html" class="text-gray-700 hover:text-indigo-600">お客様の声</a>
+        <a href="index.html#section5" class="text-gray-700 hover:text-indigo-600">資料請求</a>
+      </div>
+      <!-- 右側（空白。必要ならボタンなど入れてもOK） -->
+      <div class="navbar-end"></div>
+    </div>
+  </header>
+  <main class="py-12 md:py-20">
+    <!-- Hero Section -->
+    <!-- <section class="pt-4">
+      <div class="text-center">
+        <div>
+          <h1 class="text-3xl md:text-3xl font-bold text-base-content text-neutral mb-6">
+            情報活用を<span class="text-primary">革新</span>する<br>
+            次世代AIドキュメント管理
+          </h1>
+          <p class="text-base-content/80 mb-8 max-w-2xl mx-auto">
+            話すだけで目的の文書が見つかる。安全な国内サーバーであらゆる組織のデジタル変革を。
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#section4" class="btn btn-primary px-8">
+              <i class="fas fa-chart-line mr-2"></i>
+              導入効果を見る
+            </a>
+            <a href="#section5" class="btn btn- px-8">
+              <i class="fas fa-download mr-2"></i>
+              資料請求
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Features Section -->
+    <section class="py-12">
+      <div class="container mx-auto px-4 pt-4 max-w-6xl">
+        <div class="text-center mb-8">
+          <h2 class="text-3xl text-primary font-bold text-base-content mb-4">
+            4つの革新的機能
+          </h2>
+          <p class="text-base-content/70">
+            従来の文書管理の課題を根本から解決
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Feature 1: AI検索 -->
+          <div
+            class="card bg-white shadow-lg rounded-lg border border-base-300 hover:shadow-xl transition-all duration-300 transition-transform hover:-translate-y-1 ">
+            <div class="card-body p-8">
+              <div class="flex items-center mb-4">
+                <div class="w-16 h-16 bg-primary/20 rounded-2xl flex items-center justify-center mr-4">
+                  <i class="fas fa-microphone text-2xl text-primary"></i>
+                </div>
+                <h3 class="card-title text-2xl text-base-content">話せるAI検索</h3>
+              </div>
+              <p class="text-base-content/80 mb-4">
+                AIに話しかけるだけで目的の文書がすぐ見つかります。時間を「探す」から「活かす」に変える次世代型検索を実現。
+              </p>
+              <div class="badge badge-primary badge-lg">検索時間85%削減</div>
+            </div>
+          </div>
+
+          <!-- Feature 2: セキュリティ -->
+          <div
+            class="card bg-white shadow-lg rounded-lg border border-base-300 hover:shadow-xl transition-all duration-300 transition-transform hover:-translate-y-1 ">
+            <div class="card-body p-8">
+              <div class="flex items-center mb-4">
+                <div class="w-16 h-16 bg-secondary/20 rounded-2xl flex items-center justify-center mr-4">
+                  <i class="fas fa-shield-alt text-2xl text-secondary"></i>
+                </div>
+                <h3 class="card-title text-2xl text-base-content">国内完結型インフラ</h3>
+              </div>
+              <p class="text-base-content/80 mb-4">
+                海外法規制や情報流出リスクとは無縁。国内の安全なサーバーのみを使用し、高度なデータガバナンス基準に準拠。
+              </p>
+              <div class="badge badge-secondary badge-lg">情報流出リスクゼロ</div>
+            </div>
+          </div>
+
+          <!-- Feature 3: データ変換 -->
+          <div
+            class="card bg-white shadow-lg rounded-lg border border-base-300 hover:shadow-xl transition-all duration-300 transition-transform hover:-translate-y-1 ">
+            <div class="card-body p-8">
+              <div class="flex items-center mb-4">
+                <div class="w-16 h-16 bg-accent/20 rounded-2xl flex items-center justify-center mr-4">
+                  <i class="fas fa-exchange-alt text-2xl text-accent"></i>
+                </div>
+                <h3 class="card-title text-2xl text-base-content">データポータビリティ</h3>
+              </div>
+              <p class="text-base-content/80 mb-4">
+                Word・Excel・PDFなど、あらゆるファイル形式を自在に変換・統合。ファイル形式の壁を超えた運用を実現。
+              </p>
+              <div class="badge badge-accent badge-lg">変換作業75%削減</div>
+            </div>
+          </div>
+
+          <!-- Feature 4: UI/UX -->
+          <div
+            class="card bg-white shadow-lg rounded-lg border border-base-300 hover:shadow-xl transition-all duration-300 transition-transform hover:-translate-y-1 ">
+            <div class="card-body p-8">
+              <div class="flex items-center mb-4">
+                <div class="w-16 h-16 bg-neutral/20 rounded-2xl flex items-center justify-center mr-4">
+                  <i class="fas fa-user-friends text-2xl text-neutral"></i>
+                </div>
+                <h3 class="card-title text-2xl text-base-content">直感的UI/UX</h3>
+              </div>
+              <p class="text-base-content/80 mb-4">
+                専門知識がなくてもすぐに使える操作性。どのデバイスでもストレスゼロの操作体験を提供します。
+              </p>
+              <div class="badge badge-neutral badge-lg">研修時間80%削減</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section class="py-12">
+      <div class="container mx-auto px-4 max-w-6xl">
+        <div class="text-center mb-8">
+          <h2 class="text-3xl text-primary font-bold text-base-content">
+            こんな組織におすすめ
+          </h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- 自治体 -->
+          <div class="card bg-white shadow-lg rounded-lg border border-base-300">
+            <div class="card-body text-center p-8">
+              <div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-building text-3xl text-primary"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-base-content mb-4">自治体</h3>
+              <ul class="text-base-content/80 space-y-2">
+                <li>• 大量の公文書管理</li>
+                <li>• 情報公開請求対応</li>
+                <li>• セキュリティ要件の厳格化</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 医療機関 -->
+          <div class="card bg-white shadow-lg rounded-lg border border-base-300">
+            <div class="card-body text-center p-8">
+              <div class="w-20 h-20 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-hospital text-3xl text-secondary"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-base-content mb-4">医療機関</h3>
+              <ul class="text-base-content/80 space-y-2">
+                <li>• 患者情報の厳格管理</li>
+                <li>• 医療記録の効率化</li>
+                <li>• 法規制への確実な対応</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 中小企業 -->
+          <div class="card bg-white shadow-lg rounded-lg border border-base-300">
+            <div class="card-body text-center p-8">
+              <div class="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-briefcase text-3xl text-accent"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-base-content mb-4">中小企業</h3>
+              <ul class="text-base-content/80 space-y-2">
+                <li>• 業務効率化の推進</li>
+                <li>• コスト削減の実現</li>
+                <li>• デジタル変革の加速</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before/After Section -->
+    <section id="section4" class="py-20 bg-base-100">
+      <div class="container mx-auto px-4 max-w-6xl">
+        <div class="text-center mb-8">
+          <h2 class="text-3xl text-primary font-bold text-base-content mb-4">
+            導入効果の可視化
+          </h2>
+          <p class="text-base-content/70">
+            具体的な数値で見る改善効果
+          </p>
+        </div>
+
+        <div class="space-y-12">
+          <!-- 自治体の効果 -->
+          <div class="card bg-white shadow-lg rounded-lg border border-base-300">
+            <div class="card-body p-8">
+              <div class="flex items-center mb-6">
+                <div class="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center mr-4">
+                  <i class="fas fa-building text-xl text-primary"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-base-content">自治体（職員300名）</h3>
+              </div>
+
+              <div class="grid md:grid-cols-3 gap-6">
+                <div class="text-center">
+                  <div class="stat-title text-base-content/60">現在の損失</div>
+                  <div class="stat-value text-primary text-3xl">1,840万円</div>
+                  <div class="stat-desc text-base-content/80">年間人件費損失</div>
+                </div>
+                <div class="flex items-center justify-center">
+                  <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                    <i class="fas fa-arrow-right text-2xl text-primary"></i>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <div class="stat-title text-base-content/60">改善後</div>
+                  <div class="stat-value text-accent text-3xl">276万円</div>
+                  <div class="stat-desc text-base-content/80">85%削減達成</div>
+                </div>
+              </div>
+
+              <!-- <div class="alert alert-warning alert-soft mt-6">
+                <i class="fas fa-check-circle"></i>
+                <span class="font-bold">年間1,564万円の人件費削減効果</span>
+              </div> -->
+
+
+              <!-- アラート -->
+              <div class="alert alert-warning alert-soft mt-6">
+                <i class="fas fa-check-circle"></i>
+                <span class="font-bold">年間1,564万円の人件費削減効果</span>
+                <button class="btn btn-sm btn-outline ml-auto" onclick="document.getElementById('modal-1').showModal()">
+                  詳細を見る
+                </button>
+              </div>
+
+              <!-- モーダル -->
+              <dialog id="modal-1" class="modal">
+                <div class="modal-box">
+                  <h3 class="font-bold text-lg">人件費削減の詳細</h3>
+                  <p class="py-4 leading-relaxed">
+                    自治体職員の平均年収（約600万円）から換算した時給（3,061円）を基に試算したところ、<br>
+                    文書検索にかかる年間の人件費は <span class="font-bold text-primary">約1,840万円</span> にのぼります。
+                    <br><br>
+                    CrystalDriveを導入し、検索時間を85%削減できた場合、<br>
+                    残る人件費コストは <span class="font-bold text-primary">約276万円</span> に抑えられ、<br>
+                    <span class="font-bold text-primary">年間1,564万円</span> の削減効果が期待できます。
+                    <br><br>
+                    【計算式】<br>
+                    25分 × 300名 × 245日 × 3,061円 ÷ 60分 ≒ 1,840万円<br>（→85%削減で276万円）
+                  </p>
+                  <div class="modal-action">
+                    <form method="dialog">
+                      <button class="btn btn-sm">閉じる</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+
+            </div>
+          </div>
+
+          <!-- 医療機関の効果 -->
+          <div class="card bg-white shadow-lg rounded-lg border border-base-300">
+            <div class="card-body p-8">
+              <div class="flex items-center mb-6">
+                <div class="w-12 h-12 bg-secondary/20 rounded-xl flex items-center justify-center mr-4">
+                  <i class="fas fa-hospital text-xl text-secondary"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-base-content">医療機関（職員150名）</h3>
+              </div>
+
+              <div class="grid md:grid-cols-3 gap-6">
+                <div class="text-center">
+                  <div class="stat-title text-base-content/60">情報流出リスク</div>
+                  <div class="stat-value text-primary text-3xl">2-5億円</div>
+                  <div class="stat-desc text-base-content/80">想定損害額</div>
+                </div>
+                <div class="flex items-center justify-center">
+                  <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center">
+                    <i class="fas fa-arrow-right text-2xl text-secondary"></i>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <div class="stat-title text-base-content/60">リスク回避</div>
+                  <div class="stat-value text-accent text-3xl">100%</div>
+                  <div class="stat-desc text-base-content/80">完全保護</div>
+                </div>
+              </div>
+
+              <!-- <div class="alert alert-info alert-info alert-soft mt-6">
+                <i class="fas fa-shield-alt"></i>
+                <span class="font-bold">2-5億円のリスク回避効果</span>
+              </div> -->
+
+              <!-- アラート -->
+              <div class="alert alert-warning alert-soft mt-6">
+                <i class="fas fa-shield-alt"></i>
+                <span class="font-bold">2-5億円のリスク回避効果</span>
+                <button class="btn btn-sm btn-outline ml-auto" onclick="document.getElementById('modal-2').showModal()">
+                  詳細を見る
+                </button>
+              </div>
+              <!-- モーダル -->
+              <dialog id="modal-2" class="modal">
+                <div class="modal-box">
+                  <h3 class="font-bold text-lg">情報流出リスクの詳細</h3>
+                  <p class="py-4 leading-relaxed">
+                    CrystalDriveを導入した場合、<br>
+                    海外サーバー不使用により、情報流出リスクをゼロ化。<br>
+                    <span class="font-bold text-primary">最大5億円相当</span>の損害回避ができます。
+                    <br><br>
+                    さらに個人情報保護法や医療法への対応で、監査・行政リスクを回避。
+                    流出時の患者離反・売上減少（20～30%）を未然に防止できます。
+                  </p>
+                  <div class="modal-action">
+                    <form method="dialog">
+                      <button class="btn btn-sm">閉じる</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+          </div>
+
+          <!-- 中小企業の効果 -->
+          <div class="card bg-white shadow-lg rounded-lg border border-base-300">
+            <div class="card-body p-8">
+              <div class="flex items-center mb-6">
+                <div class="w-12 h-12 bg-accent/20 rounded-xl flex items-center justify-center mr-4">
+                  <i class="fas fa-briefcase text-xl text-accent"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-base-content">中小企業（従業員100名）</h3>
+              </div>
+
+              <div class="grid md:grid-cols-3 gap-6">
+                <div class="text-center">
+                  <div class="stat-title text-base-content/60">現在のコスト</div>
+                  <div class="stat-value text-primary text-3xl">144万円</div>
+                  <div class="stat-desc text-base-content/80">年間作業コスト</div>
+                </div>
+                <div class="flex items-center justify-center">
+                  <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center">
+                    <i class="fas fa-arrow-right text-2xl text-accent"></i>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <div class="stat-title text-base-content/60">改善後</div>
+                  <div class="stat-value text-accent text-3xl">36万円</div>
+                  <div class="stat-desc text-base-content/80">75%削減達成</div>
+                </div>
+              </div>
+
+              <!-- <div class="alert alert-error alert-soft mt-6">
+                <i class="fas fa-chart-line"></i>
+                <span class="font-bold">年間108万円の作業コスト削減</span>
+              </div> -->
+              <!-- アラート -->
+              <div class="alert alert-warning alert-soft mt-6">
+                <i class="fas fa-chart-line"></i>
+                <span class="font-bold">年間108万円の作業コスト削減</span>
+                <button class="btn btn-sm btn-outline ml-auto" onclick="document.getElementById('modal-3').showModal()">
+                  詳細を見る
+                </button>
+              </div>
+
+              <!-- モーダル -->
+              <dialog id="modal-3" class="modal">
+                <div class="modal-box">
+                  <h3 class="font-bold text-lg">作業コスト削減の詳細</h3>
+                  <p class="py-4 leading-relaxed">
+                    中小企業会社員の平均年収（約360万円）から換算した時給（1,837円）を基に試算したところ、
+                    ファイル変換・統合作業において、<br>年間の作業コストは <span class="font-bold text-primary">約144万円</span>
+                    に。（月30時間・年間360時間の手作業）
+                    <br><br>
+                    CrystalDriveを導入し、作業時間を75%削減した場合、<br>
+                    作業時間は月7.5時間に短縮され、<br>
+                    年間の作業コストは <span class="font-bold text-primary">約36万円</span> に抑えられ、<span
+                      class="font-bold text-primary">年間約108万円</span> の削減効果が期待できます。
+                    <br><br>
+                    【計算式】<br>
+                    30時間 × 12ヶ月 × 1,837円 × 100名 ≒ 144万円<br>
+                    （→75%削減で36万円）
+                  </p>
+                  <div class="modal-action">
+                    <form method="dialog">
+                      <button class="btn btn-sm">閉じる</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+
+
+
+              <!-- <dialog id="modal-3" class="modal">
+                <div class="modal-box max-w-md">
+                  <h3 class="font-bold text-xl text-accent mb-3">
+                    <i class="fas fa-briefcase mr-2"></i>
+                    中小企業での導入メリット
+                  </h3>
+
+                  <ul class="space-y-3 text-base-content/80 leading-relaxed text-sm">
+                    <li>
+                      ✅ <span class="font-medium">作業時間を75%短縮</span><br>
+                      毎月30時間 → <strong>7.5時間</strong>に削減。
+                    </li>
+                    <li>
+                      ✅ <span class="font-medium">年間108万円の人件費削減</span><br>
+                      単純作業を自動化し、年間<strong>270時間</strong>を創出。
+                    </li>
+                    <li>
+                      ✅ <span class="font-medium">生産性と満足度の向上</span><br>
+                      データ管理の手間が減り、<br>
+                      社員が本来の業務に集中。
+                    </li>
+                  </ul>
+
+                  <div class="modal-action mt-5">
+                    <form method="dialog">
+                      <button class="btn btn-accent btn-sm">閉じる</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog> -->
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="py-8">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+        <a href="#" class="link link-hover text-gray-700">利用規約</a>
+        <a href="#" class="link link-hover text-gray-700">プライバシーポリシー</a>
+        <a href="#" class="link link-hover text-gray-700">運営会社</a>
+      </div>
+      <div class="text-center mt-6">
+        <p class="text-sm text-gray-500">© 2025 Crystal Drive All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
