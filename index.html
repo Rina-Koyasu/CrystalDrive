@@ -25,9 +25,11 @@
         </a>
       </div>
       <!-- 中央（メニュー） -->
-      <div class="navbar-center space-x-6">
+       <div class="navbar-center space-x-6">
         <a href="#section4" class="text-gray-700 hover:text-indigo-600">Before / After</a>
-        <a href="#section5" class="text-gray-700 hover:text-indigo-600">資料請求・お問い合わせ</a>
+        <a href="effect.html" class="text-gray-700 hover:text-indigo-600">導入と効果</a>
+        <a href="customer.html" class="text-gray-700 hover:text-indigo-600">お客様の声</a>
+        <a href="#section5" class="text-gray-700 hover:text-indigo-600">資料請求</a>
       </div>
       <!-- 右側（空白。必要ならボタンなど入れてもOK） -->
       <div class="navbar-end"></div>
@@ -54,10 +56,13 @@
               <button class="btn btn-primary mb-4">今すぐ資料をチェック</button></a>
           </div>
         </div>
-        <div class="w-full md:w-1/2 bg-white">
+        <div
+          class="w-full md:w-1/2 bg-white p-6 h-[400px] flex items-center justify-center rounded-lg border border-base-300">
           <img src="./src/assets/images/hero_undraw_working_n9u0.svg" alt="Business person working"
-            class="rounded-lg border-2 border-gray-200">
+            class="max-h-full object-contain">
         </div>
+
+
       </div>
     </div>
   </section>
@@ -71,7 +76,7 @@
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Pain Point 1 -->
-        <div class="card bg-white shadow-md rounded-lg">
+        <div class="card bg-white border border-base-300 shadow-md rounded-lg">
           <div class="card-body">
             <ul class="space-y-2 mb-6">
               <li class="flex items-start gap-2">
@@ -91,7 +96,7 @@
         </div>
 
         <!-- Pain Point 2 -->
-        <div class="card bg-white shadow-md rounded-lg">
+        <div class="card bg-white border border-base-300 shadow-md rounded-lg">
           <div class="card-body">
             <ul class="space-y-2 mb-6">
               <li class="flex items-start gap-2">
@@ -111,7 +116,7 @@
         </div>
 
         <!-- Pain Point 3 -->
-        <div class="card bg-white shadow-md rounded-lg">
+        <div class="card bg-white border border-base-300 shadow-md rounded-lg">
           <div class="card-body">
             <ul class="space-y-2 mb-6">
               <li class="flex items-start gap-2">
@@ -154,7 +159,7 @@
 
       <!-- POINT 01 -->
       <div class="flex flex-col md:flex-row gap-8 items-center mb-10">
-        <div class="border border-gray-300 p-4 w-full md:w-1/3 bg-white">
+        <div class="border border-base-300 rounded-lg p-4 w-full md:w-1/3 bg-white">
           <div class="aspect-square flex items-center justify-center">
             <div class="rounded overflow-hidden">
               <img src="src/assets/images/1_undraw_podcast_0ioh.svg" alt="「話せるAI」"
@@ -166,7 +171,7 @@
         <div class="w-full md:w-2/3">
           <div class="flex items-baseline mb-2">
             <span class="text-3xl font-bold mr-8 text-primary">01</span>
-            <h4 class="text-xl font-bold text-neutral">「話せるAI」で情報活用を効率化</h4>
+            <h4 class="text-xl font-bold text-neutral"> 話せるAI」で情報活用を効率化</h4>
           </div>
           <p class="text-sm mb-16">
             AIに話しかけるだけで目的の文書がすぐ見つかります。<br>
@@ -177,7 +182,7 @@
 
       <!-- POINT 02 -->
       <div class="flex flex-col md:flex-row gap-8 items-center mb-10">
-        <div class="border border-gray-300 p-4 w-full md:w-1/3 bg-white">
+        <div class="border border-base-300 rounded-lg p-4 w-full md:w-1/3 bg-white">
           <div class="aspect-square  flex items-center justify-center">
             <div class="rounded overflow-hidden">
               <img src="src/assets/images/2_japan.png" alt="japan" class="w-full h-full object-contain" />
@@ -199,7 +204,7 @@
 
       <!-- POINT 03 -->
       <div class="flex flex-col md:flex-row gap-8 items-center mb-10">
-        <div class="border border-gray-300 p-4 w-full md:w-1/3 bg-white">
+        <div class="border border-base-300 rounded-lg p-4 w-full md:w-1/3 bg-white">
           <div class="aspect-square  flex items-center justify-center">
             <div class="rounded overflow-hidden">
               <img src="src/assets/images/3_undraw_cloud-docs_6cpw.svg" alt="データポータビリティ"
@@ -221,7 +226,7 @@
 
       <!-- POINT 04 -->
       <div class="flex flex-col md:flex-row gap-8 items-center mb-10">
-        <div class="border border-gray-300 p-4 w-full md:w-1/3 bg-white">
+        <div class="border border-base-300 rounded-lg p-4 w-full md:w-1/3 bg-white">
           <div class="aspect-square  flex items-center justify-center">
             <div class="rounded overflow-hidden">
               <img src="src/assets/images/4_undraw_ship-it_vn4g.svg" alt="UI/UX" class="w-full h-full object-contain" />
@@ -251,18 +256,20 @@
     </div>
   </section>
   <section class="container mx-auto px-4 max-w-5xl mt-8 pt-16 scroll-mt-24" id="section5">
-    <h1 class="text-2xl font-bold text-primary text-center mb-4">資料請求・お問い合わせ</h1>
+    <h1 class="text-3xl font-bold text-primary text-center mb-4">資料請求・お問い合わせ</h1>
     <div class="flex flex-col md:flex-row">
-      <!-- 左：画像エリア（フォームと同じ高さ）-->
-      <div class="md:w-1/2 w-full flex justify-start items-center p-8">
-        <div class="h-full w-full flex items-center justify-start pl-8">
+      <!-- 左：画像エリア-->
+      <div class="md:w-3/5 w-full flex justify-start items-center p-8">
+        <div
+          class="h-[500px] w-[90%] mx-auto flex items-center justify-center bg-white rounded-lg border border-base-300">
           <img src="src/assets/images/undraw_developer-activity.svg" alt="working"
-            class="max-h-full object-contain rounded-lg border-2 border-gray-300 shadow-lg bg-white" />
+            class="max-h-[80%] max-w-[80%] object-contain" />
         </div>
       </div>
+
       <!-- 右：フォーム -->
       <div class="md:w-1/2 w-full p-8 flex flex-col justify-center">
-        <p class="mb-6 text-center text-sm">Crystal Driveの特徴や機能など詳しい情報を<br>ご覧いただける資料をお送りします。</p>
+        <p class="mb-6 text-sm">今すぐ始める次世代の文書管理。<br> Crystal Driveの詳しい資料をお送りします。</p>
         <form class="space-y-4">
           <div>
             <label class="label">
